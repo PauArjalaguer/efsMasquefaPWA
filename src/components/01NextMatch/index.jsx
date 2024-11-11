@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import transformDate from '../../functions/functions';
+import {transformDate} from '../../functions/functions';
 
 const NextMatch = (props) => {
 

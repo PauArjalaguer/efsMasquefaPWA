@@ -7,6 +7,8 @@ import Noticia from './screens/03Noticia';
 import Partits from './screens/04Partits';
 import Equips from './screens/05Equips';
 import Equip from './screens/06Equip';
+import Competicions from './screens/07Competicions';
+import Competicio from './screens/08Competicio';
 
 
 
@@ -20,6 +22,8 @@ function App() {
       <Route path="/partits" element={<Partits />} />
       <Route path="/equips/:idTeam" element={<Equip />} /> 
       <Route path="/equips" element={<Equips />} /> 
+      <Route path="/competicio/:idLeague" element={<Competicio />} /> 
+      <Route path="/competicio" element={<Competicions />} /> 
     </Routes>
   );
 }

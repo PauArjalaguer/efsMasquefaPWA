@@ -34,7 +34,7 @@ const Equip = () => {
     if (nextMatch[0]) {
         return (
             <div className="w-screen h-screen bg-slate-700 bg-[url('/public/images/app_back.jpg')] bg-cover bg-center">
-                <div id="header" className="w-screen  p-7 text-center text-white uppercase text-4xl font-bold">E.F.S. Masquefa</div>
+                <div id="header" className="w-screen  p-7 text-center text-white text-2xl font-bold">E.F.S. Masquefa</div>
                 <div className='px-2'>
                     <NextMatch nextMatch={nextMatch} />
                     {

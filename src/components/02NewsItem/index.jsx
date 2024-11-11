@@ -1,5 +1,5 @@
 import React from 'react'
-import transformDate from '../../functions/functions';
+import {transformDate} from '../../functions/functions';
 import { NavLink } from 'react-router-dom';
 
 const NewsItem = (props) => { 
