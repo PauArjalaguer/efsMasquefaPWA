@@ -31,7 +31,7 @@ const Competicions = () => {
 
 
     return (
-        <div className="w-screen h-screen bg-slate-700 bg-[url('/public/images/app_back.jpg')] bg-cover bg-center">
+        <div className="w-screen h-screen bg-slate-700 bg-[url('/public/images/app_back.jpg')] bg-cover bg-center pt-6">
             <div id="header" className="w-screen  p-7 text-center text-white text-2xl font-bold">E.F.S. Masquefa</div>
             <div className='px-2 w-full' key={1}>
                 <div className='border-solid mb-32 pb-16'>

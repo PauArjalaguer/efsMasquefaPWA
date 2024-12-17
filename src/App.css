@@ -24,7 +24,7 @@ body {
   background-image: url('/public/images/app_back.jpg');
   background-size: cover;
   background-repeat: no-repeat; */
- 
+ background-color: #fff;
 }
 
 .App {

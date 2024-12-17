@@ -1,9 +1,8 @@
 import React from 'react'
-import { http_query } from '../../functions/query';
-import { truncateTeamNames } from '../../functions/functions';
+
 
 const classification = (props) => {
-    // console.log(props.classification);
+   
     let classification = props.classification;
     return (
 
@@ -28,7 +27,7 @@ const classification = (props) => {
                         <tr key={n[0]}>
                             <td className='text-center bg-azure-700 font-bold text-white border-b border-t-0 border-azure-700 p-2'>{n[0]}</td>
                             <td className='text-nowrap border-b border-t-0 border-azure-700 px-1 py-2'>
-                                <div className='w-[120px] md:w-full truncate text-[11px] lg:text-lg'>{n[1]}
+                                <div className='w-[160px] md:w-full truncate text-[11px] lg:text-lg'>{n[1]}
                                 </div>
                             </td>
                             <td className='text-center bg-azure-700 font-bold text-white border-b-1 border-t-0 border-azure-700 text-[11px] px-1 py-2' >{n[2]}</td>

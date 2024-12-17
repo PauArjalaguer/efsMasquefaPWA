@@ -13,7 +13,7 @@ const Noticia = (p) => {
     setLoaded(1);
     fetch("https://jok.cat/api/news/efs_masquefa/" + idNew)
       .then((response) => { return response.json(); })
-      .then((data) => { setNews(data[0]); console.log(news) });
+      .then((data) => { setNews(data[0]);});
   }
 
 
@@ -24,7 +24,7 @@ const Noticia = (p) => {
   if (news) {
     return (
       <>
-        <div className="w-screen h-screen bg-slate-700 bg-[url('/public/images/app_back.jpg')] bg-cover bg-center">
+        <div className="w-screen h-screen bg-slate-700 bg-[url('/public/images/app_back.jpg')] bg-cover bg-center pt-6">
           <div id="header" className="w-screen  p-7 text-center text-white text-2xl font-bold">E.F.S. Masquefa</div>
           <div className=' w-full bg-azure-600'>
             <img className='w-full ' src={"http://jok.cat/" + news['newsImage']} />

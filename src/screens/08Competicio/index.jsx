@@ -43,7 +43,7 @@ const Competicio = () => {
     }, []);
     if (classification[0] && matches) {       
         return (
-            <div className="w-screen h-screen bg-[url('/public/images/app_back.jpg')] bg-cover bg-center">
+            <div className="w-screen h-screen bg-[url('/public/images/app_back.jpg')] bg-cover bg-center pt-6">
                 <div id="header" className="w-screen  p-7 text-center text-white text-2xl font-bold">E.F.S. Masquefa</div>
                 <div className='px-2'>
                     <div className='border-solid  border-b-0 mb-32 pb-16'>

@@ -1,7 +1,10 @@
 export async function http_query(query, params) {
     const url = 'https://jokcatfs-pauarjalaguer.turso.io/';
     const token = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3MjQ1MTcwNjYsImlkIjoiZjI3NmQ3NmUtMjA1My00ZmJhLWI2MTgtMGQyZGZkN2E3NDEzIn0.vGKIODWyeqUw-YY-XdW6jEUeRUSyFdevSdimkQ0bpIIghhEbrXsHUVdDMXUBWwCHFHYtBwWixlv_JqQVzuDoCQ";
-    try {
+    
+   // const url ="https://efsmasquefa-jokcat.turso.io";
+    //const token="eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3MzQwMjk1NzEsImlkIjoiYzA2ZThhYjctYWJhYi00NzQwLWE2MzMtZWQzZWZhYzRmNWQwIn0.yNzV7Ptv3KQP3LIi-WxV5scl4Cb_jx5ayNb4wPOXJmKmvHQ2_XmwQb79Z1KANORdbdS6eo27s3k7TZG_e79gCQ";
+     try {
         const response = await fetch(url, {
             method: 'POST',
             headers: {

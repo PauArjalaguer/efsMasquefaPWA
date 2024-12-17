@@ -8,7 +8,7 @@ import Sponsor from '../../components/05Sponsor';
 const Noticies = () => {
   let [news, setNews] = useState([]);
   const fetchNewsData = () => {
-    fetch("https://jok.cat/api/news/efs_masquefa")
+    fetch("https://jok.cat/api/news/efs_masquefa/25")
       .then((response) => { return response.json(); })
       .then((data) => { setNews(data); });
   }
@@ -17,7 +17,7 @@ const Noticies = () => {
   }, []);
   return (
     <>
-      <div className="w-screen h-screen bg-slate-700 bg-[url('/public/images/app_back.jpg')] bg-cover bg-center">
+      <div className="w-screen h-screen bg-slate-700 bg-[url('/public/images/app_back.jpg')] bg-cover bg-center pt-6">
         <div id="header" className="w-screen  p-7 text-center text-white text-2xl lg:text-4xl font-bold">E.F.S. Masquefa</div>
         <div className='px-2 w-full'>
           <div className='border-solid mb-32 pb-32'>

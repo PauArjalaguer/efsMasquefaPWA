@@ -10,7 +10,7 @@ const Matches = (props) => {
                     match => {                      
                         return (
                             <div key={match[0]}>
-                                <div className={`bg-azure-700 text-white text-[12px] font-bold p-1 ${round === match[6] ? 'hidden' : ''}`}>
+                                <div className={`bg-azure-700 text-white text-[12px] font-bold p-1 pl-3 ${round === match[6] ? 'hidden' : ''}`}>
                                     JORNADA {round = match[6]}
                                 </div>
                                 <div className='flex bg-white border-l border-azure-700'>

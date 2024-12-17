@@ -13,7 +13,7 @@ function Sponsor(props) {
     useEffect(() => {
         if (props.index % 3 === 0) {
             fetchSponsor();
-            console.log(sponsor);
+    
         }
     }, []);
 
