@@ -14,7 +14,7 @@ const NextMatch = (props) => {
     <>
       <div className='border-solid'>
         <div className='bg-azure-700 p-2 font-bold rounded-t-lg text-white'>Proper partit</div>
-        <div className='text-[0.8rem]  uppercase text-left text-azure-200 bg-azure-700 p-1 pl-2'>{match[9]}</div>
+        <div className='text-xs  uppercase text-left text-azure-200 bg-azure-700 p-1 pl-2'>{match[9]}</div>
         <div className={`bg-white border border-azure-700  mb-1 rounded-b-md pb-2 border-t-0`}>        
           <div className="flex justify-between items-start">
             <div className='w-1/4 p-1 border-solid border-slate-200 justify-items-start '>
